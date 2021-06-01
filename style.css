@@ -1,0 +1,21 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+#gameboard-container {
+  background-color: lightcoral;
+  display: grid;
+  width: 375px;
+  height: 375px;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+
+.gamespace {
+  text-align: center;
+  font-size: 300%;
+  padding: 2rem;
+  color: black;
+  border: 2px solid black;
+}
