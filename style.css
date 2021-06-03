@@ -4,12 +4,13 @@
 }
 
 #gameboard-container {
-  background-color: lightcoral;
+  background-color: rgb(218, 143, 143);
   display: grid;
   width: 375px;
   height: 375px;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr;
+  margin: auto;
 }
 
 .gamespace {
@@ -18,4 +19,29 @@
   padding: 2rem;
   color: black;
   border: 2px solid black;
+}
+
+.gamespace:hover {
+  cursor: pointer;
+}
+
+.results {
+  margin-top: 15px;
+  text-align: center;
+  font-size: 300%;
+}
+
+.reset {
+  margin: auto;
+  text-align: center;
+  width: 90px;
+  height: 40px;
+  font-size: 200%;
+}
+
+.reset-btn {
+  height: 100%;
+  width: 100%;
+  font-size: large;
+  border: 3px solid grey;
 }
